@@ -8,5 +8,6 @@ import org.springframework.stereotype.Component;
 @Component
 public class PointCutConfig {
     @Pointcut("within(com.example.saml.service..*)")
-    public void inSvcLayer() {}
+    public void inSvcLayer() {
+    }
 }

@@ -2,7 +2,6 @@ package com.example.saml.controller;
 
 import com.example.saml.service.SpService;
 import com.example.saml.utils.Person;
-import org.springframework.context.annotation.EnableAspectJAutoProxy;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
